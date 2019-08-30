@@ -1,0 +1,23 @@
+<mvc:View 
+	xmlns:core="sap.ui.core" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns:m="sap.m" 
+	xmlns="sap.f.semantic"
+	controllerName="ovly.telas.controller.View3"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<m:App>
+		<m:pages>
+			<SemanticPage>
+				<content>
+					<m:TextArea />
+				</content>
+				<addAction>
+					<AddAction />
+				</addAction>
+				<deleteAction>
+					<DeleteAction />
+				</deleteAction>
+			</SemanticPage>
+		</m:pages>
+	</m:App>
+</mvc:View>

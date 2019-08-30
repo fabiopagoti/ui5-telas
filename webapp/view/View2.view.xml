@@ -1,0 +1,55 @@
+<mvc:View xmlns:semantic="sap.m.semantic" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="ovly.telas.controller.View2" xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<semantic:FullscreenPage title="Relatório" showNavButton="true">
+				<semantic:content>
+					<DatePicker/>
+					<Switch/>
+				</semantic:content>
+				
+				<semantic:addAction>
+					<semantic:AddAction />
+				</semantic:addAction>
+				
+				
+				
+				<semantic:cancelAction>
+					<semantic:CancelAction />
+				</semantic:cancelAction>    
+				
+				<semantic:deleteAction>
+					<semantic:DeleteAction />
+				</semantic:deleteAction>
+				
+				<semantic:editAction>
+					<semantic:EditAction />
+				</semantic:editAction>
+				
+				<semantic:flagAction>
+					<semantic:FlagAction />
+				</semantic:flagAction>     
+				
+				<semantic:negativeAction>
+					<semantic:NegativeAction text="Rejeitar" />
+				</semantic:negativeAction>     
+				
+				<semantic:positiveAction>
+					<semantic:PositiveAction text="Aprovar" />
+				</semantic:positiveAction>     
+				
+				
+				
+				
+				
+				<semantic:customFooterContent>
+					<Button text="A" width="200px"/>
+					<Button text="B" width="300px"/>
+					<Button text="C" width="400px"/>
+					<ToggleButton text="Ativar"/>
+				</semantic:customFooterContent>
+				
+			</semantic:FullscreenPage>
+		</pages>
+	</App>
+</mvc:View>
